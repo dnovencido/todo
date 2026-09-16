@@ -84,6 +84,8 @@ function addTask() {
 
         // Mark as done
         markAsDone(todoCheckBox);
+    } else {
+        alert("Please enter a task");
     }
 }
 
